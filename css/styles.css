@@ -1,0 +1,90 @@
+#main-home h1 {
+	text-align: center;
+}
+#main-home .call-to-action h2 {
+	text-align: center;
+}
+.navbar {
+	border-radius: 0px;
+}
+
+#teamColorLabel, #teamLabel {
+	display: block;
+	margin-bottom: 10px;
+}
+.color-check, .team_id {
+	display: none;
+}
+.color-check:checked + label,
+.team_id:checked + label {
+	box-shadow: 0px 0px 2px 4px #ababab;
+}
+.team-button {
+	display: block;
+	padding: 10px 0px;
+	text-align: center;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	color: #eeeeee;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.team-color-button {
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	border-radius: 5px;
+	margin-right: 15px;
+}
+.team-color-button.blue {
+	background: #0000ff;
+	border: 2px solid #00008b;
+}
+.team-color-button.black {
+	background: #000000;
+	border: 2px solid #555555;
+}
+.team-color-button.red {
+	background: #cc0000;
+	border: 2px solid #8b0000;
+}
+.team-color-button.green {
+	background: #008000;
+	border: 2px solid #006400;
+}
+.team-color-button.orange {
+	background: #ffa500;
+	border: 2px solid #ff8c00;
+}
+.team-color-button.pink {
+	background: #ffc0cb;
+	border: 2px solid #ca97a0;
+}
+.team-color-button.brown {
+	background: #a52a2a;
+	border: 2px solid #631a1a;
+}
+.team-color-button.yellow {
+	background: #ffff00;
+	border: 2px solid #8c8c00;
+}
+.team {
+	padding: 15px;
+	margin: 20px 0px;
+	border-radius: 5px;
+	color: #eee;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.team .delete {
+	cursor: pointer;
+    background-color: #FFF;
+    padding: 0px 5px;
+    border-radius: 30px;
+    color: #CC0000;
+	font-weight: bold;
+}
+footer {
+	text-align: center;
+	margin-top: 20px;
+}
